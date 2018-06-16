@@ -3,6 +3,8 @@
 This Dockerfile is for setting up a container to build applications for the Pocksprite
 
 ## Usage
+You must have checked out the 8bkc-sdk project, https://github.com/PocketSprite/8bkc-sdk, and the esp-idf project, https://github.com/espressif/esp-idf. 
+
 To build an image
 ```
 docker build -t some_readable_tag .
