@@ -11,7 +11,7 @@ docker build -t some_readable_tag .
 ```
 To run the container
 ```
-docker run --rm -it -v ${POCKETSPRITE_SDK_PATH}/../8bkc-sdk:/esp/8bkc-sdk -v ${ESP_IDF_PATH}/../esp-idf:/esp/esp-idf -v ${PATH_TO_PROJECT}:/esp/project some_readable_tag
+docker run --rm -it -v ${POCKETSPRITE_SDK_PATH}/../8bkc-sdk:/esp/8bkc-sdk -v ${PATH_TO_PROJECT}:/esp/project some_readable_tag
 ```
 
 ## Notes to myself
